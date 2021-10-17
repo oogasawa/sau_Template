@@ -1,0 +1,10 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.saurusSidebar.category.Docsaurusの初期設定": {
+    "message": "Docsaurusの初期設定",
+    "description": "The label for category Docsaurusの初期設定 in sidebar saurusSidebar"
+  }
+}
