@@ -9,7 +9,8 @@ const config = {
   title: 'Template00',
   tagline: 'Dinosaurs are cool',
   url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  /*  baseUrl: '/', */
+  baseUrl: "/~oogasawa/sau_Template00/",
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -59,13 +60,16 @@ const config = {
         alt: 'My Site Logo',
         src: 'img/king_logo.png',
       },
+
       items: [
+        
         {
-          to: '/',
-          docId: 'intro',
+          type: "doc",
+          docId: "TopPage/intro",
           position: 'left',
           label: 'Documentation',
         },
+
         {to: '/blog', label: 'Blog', position: 'left'},
         {type: 'localeDropdown',
          position: 'right',
